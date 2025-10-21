@@ -7,6 +7,11 @@ public class Persona {
         return nombre;
     }
 
+    public int getEdad()
+    {
+        return edad;
+    }
+
     public void setNombre(String nombre)
     {
         this.nombre = nombre;

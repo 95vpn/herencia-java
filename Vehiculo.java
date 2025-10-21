@@ -8,8 +8,17 @@ public class Vehiculo {
         this.anio = anio;
     }
 
+    public Vehiculo() {
+    }
+
+
     public void mostrarInfo()
     {
        System.out.println("Marca: " + marca + ", Año: " + anio);
+    }
+
+    public void encender()
+    {
+        System.out.println("encendiendo vehiculo");
     }
 }
